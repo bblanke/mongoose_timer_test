@@ -1,0 +1,344 @@
+In archive /Users/baileyblankenship/Documents/Workspace/Embedded/Projects/mgos-timer-test/build/objs/pthread/libpthread.a:
+
+pthread_local_storage.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.find_key 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .literal.pthread_local_storage_thread_deleted_callback 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .literal.pthread_key_create 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .literal.pthread_key_delete 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .literal.pthread_internal_local_storage_destructor_callback 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .literal.pthread_getspecific 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  6 .literal.pthread_setspecific 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  7 .text         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  8 .data         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  9 .bss          00000000  00000000  00000000  00000034  2**0
+                  ALLOC
+ 10 .text.find_key 0000003c  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .rodata.str1.1 0000004e  00000000  00000000  00000070  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 12 .text.pthread_local_storage_thread_deleted_callback 00000066  00000000  00000000  000000c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text.pthread_key_create 00000058  00000000  00000000  00000128  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.pthread_key_delete 0000005d  00000000  00000000  00000180  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.pthread_internal_local_storage_destructor_callback 00000036  00000000  00000000  000001e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.pthread_getspecific 0000002e  00000000  00000000  00000218  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.pthread_setspecific 000000c8  00000000  00000000  00000248  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .rodata.__func__$5832 0000002e  00000000  00000000  00000310  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 19 .data.s_keys_lock 00000008  00000000  00000000  00000340  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 20 .bss.s_keys   00000004  00000000  00000000  00000348  2**2
+                  ALLOC
+ 21 .debug_frame  000000b8  00000000  00000000  00000348  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 22 .debug_info   000007d2  00000000  00000000  00000400  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 23 .debug_abbrev 00000292  00000000  00000000  00000bd2  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 24 .debug_loc    00000306  00000000  00000000  00000e64  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 25 .debug_aranges 00000050  00000000  00000000  0000116a  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 26 .debug_ranges 00000040  00000000  00000000  000011ba  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 27 .debug_line   0000045d  00000000  00000000  000011fa  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 28 .debug_str    00000459  00000000  00000000  00001657  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 29 .comment      0000003b  00000000  00000000  00001ab0  2**0
+                  CONTENTS, READONLY
+ 30 .xtensa.info  00000038  00000000  00000000  00001aeb  2**0
+                  CONTENTS, READONLY
+ 31 .xt.lit       00000038  00000000  00000000  00001b23  2**0
+                  CONTENTS, RELOC, READONLY
+ 32 .xt.prop      0000036c  00000000  00000000  00001b5b  2**0
+                  CONTENTS, RELOC, READONLY
+
+pthread_cond_var.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.pthread_cond_signal 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .literal.pthread_cond_broadcast 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .literal.pthread_cond_timedwait 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .literal.pthread_cond_wait 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .literal.pthread_condattr_init 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .literal.pthread_cond_init 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  6 .literal.pthread_cond_destroy 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  7 .text         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  8 .data         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  9 .bss          00000000  00000000  00000000  00000034  2**0
+                  ALLOC
+ 10 .text.pthread_cond_signal 00000040  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text.pthread_cond_broadcast 00000043  00000000  00000000  00000074  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text.pthread_cond_timedwait 00000142  00000000  00000000  000000b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text.pthread_cond_wait 00000018  00000000  00000000  000001fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.pthread_condattr_init 00000007  00000000  00000000  00000214  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 15 .text.pthread_cond_init 00000036  00000000  00000000  0000021c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.pthread_cond_destroy 0000004e  00000000  00000000  00000254  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .debug_frame  000000b8  00000000  00000000  000002a4  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 18 .debug_info   00000773  00000000  00000000  0000035c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 19 .debug_abbrev 000001bf  00000000  00000000  00000acf  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 20 .debug_loc    000003f6  00000000  00000000  00000c8e  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 21 .debug_aranges 00000050  00000000  00000000  00001084  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 22 .debug_ranges 00000040  00000000  00000000  000010d4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 23 .debug_line   000004eb  00000000  00000000  00001114  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 24 .debug_str    0000054c  00000000  00000000  000015ff  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 25 .comment      0000003b  00000000  00000000  00001b4b  2**0
+                  CONTENTS, READONLY
+ 26 .xtensa.info  00000038  00000000  00000000  00001b86  2**0
+                  CONTENTS, READONLY
+ 27 .xt.lit       00000030  00000000  00000000  00001bbe  2**0
+                  CONTENTS, RELOC, READONLY
+ 28 .xt.prop      00000234  00000000  00000000  00001bee  2**0
+                  CONTENTS, RELOC, READONLY
+
+pthread.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.pthread_list_find_item 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .literal.pthread_get_handle_by_desc 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .literal.pthread_get_desc_by_handle 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .literal.esp_pthread_cfg_key_destructor 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .literal.pthread_delete 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .iram1.15.literal 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  6 .literal.esp_pthread_init 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  7 .literal.esp_pthread_set_cfg 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  8 .literal.esp_pthread_get_cfg 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  9 .literal.esp_pthread_get_default_config 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 10 .literal.pthread_create 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 11 .literal.pthread_join 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 12 .literal.pthread_detach 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 13 .literal.pthread_exit 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 14 .literal.pthread_task_func 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 15 .literal.pthread_cancel 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 16 .literal.sched_yield 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 17 .literal.pthread_self 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 18 .literal.pthread_equal 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 19 .literal.pthread_once 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 20 .literal.pthread_mutex_init 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 21 .literal.pthread_mutex_init_if_static$part$3 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 22 .literal.pthread_mutex_destroy 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 23 .iram1.16.literal 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 24 .iram1.17.literal 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 25 .iram1.18.literal 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 26 .iram1.19.literal 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 27 .literal.pthread_mutexattr_init 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 28 .literal.pthread_mutexattr_destroy 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 29 .literal.pthread_mutexattr_gettype 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 30 .literal.pthread_mutexattr_settype 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 31 .literal.pthread_attr_init 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 32 .literal.pthread_attr_destroy 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 33 .literal.pthread_attr_getstacksize 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 34 .literal.pthread_attr_setstacksize 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 35 .literal.pthread_attr_getdetachstate 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 36 .literal.pthread_attr_setdetachstate 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 37 .text         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 38 .data         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 39 .bss          00000000  00000000  00000000  00000034  2**0
+                  ALLOC
+ 40 .text.pthread_list_find_item 00000024  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 41 .text.pthread_get_handle_by_desc 0000000e  00000000  00000000  00000058  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 42 .text.pthread_get_desc_by_handle 0000000f  00000000  00000000  00000068  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 43 .text.esp_pthread_cfg_key_destructor 00000012  00000000  00000000  00000078  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 44 .text.pthread_delete 0000002f  00000000  00000000  0000008c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 45 .iram1.15     00000068  00000000  00000000  000000bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 46 .text.esp_pthread_init 0000004a  00000000  00000000  00000124  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 47 .text.esp_pthread_set_cfg 0000005c  00000000  00000000  00000170  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 48 .text.esp_pthread_get_cfg 0000003b  00000000  00000000  000001cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 49 .text.esp_pthread_get_default_config 00000024  00000000  00000000  00000208  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 50 .rodata.str1.1 000001d6  00000000  00000000  0000022c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 51 .text.pthread_create 00000224  00000000  00000000  00000404  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 52 .text.pthread_join 00000162  00000000  00000000  00000628  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 53 .text.pthread_detach 000000a4  00000000  00000000  0000078c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 54 .text.pthread_exit 000000f2  00000000  00000000  00000830  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 55 .text.pthread_task_func 0000003d  00000000  00000000  00000924  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 56 .text.pthread_cancel 00000036  00000000  00000000  00000964  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 57 .text.sched_yield 00000014  00000000  00000000  0000099c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 58 .text.pthread_self 00000088  00000000  00000000  000009b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 59 .text.pthread_equal 0000000f  00000000  00000000  00000a38  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 60 .text.pthread_once 0000005e  00000000  00000000  00000a48  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 61 .text.pthread_mutex_init 00000056  00000000  00000000  00000aa8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 62 .text.pthread_mutex_init_if_static$part$3 0000003e  00000000  00000000  00000b00  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 63 .text.pthread_mutex_destroy 0000003c  00000000  00000000  00000b40  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 64 .iram1.16     00000034  00000000  00000000  00000b7c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 65 .iram1.17     00000084  00000000  00000000  00000bb0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 66 .iram1.18     00000034  00000000  00000000  00000c34  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 67 .iram1.19     0000008c  00000000  00000000  00000c68  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 68 .text.pthread_mutexattr_init 00000016  00000000  00000000  00000cf4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 69 .text.pthread_mutexattr_destroy 00000012  00000000  00000000  00000d0c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 70 .text.pthread_mutexattr_gettype 00000011  00000000  00000000  00000d20  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 71 .text.pthread_mutexattr_settype 00000012  00000000  00000000  00000d34  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 72 .text.pthread_attr_init 0000001a  00000000  00000000  00000d48  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 73 .text.pthread_attr_destroy 0000001a  00000000  00000000  00000d64  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 74 .text.pthread_attr_getstacksize 00000011  00000000  00000000  00000d80  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 75 .text.pthread_attr_setstacksize 00000015  00000000  00000000  00000d94  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 76 .text.pthread_attr_getdetachstate 00000011  00000000  00000000  00000dac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 77 .text.pthread_attr_setdetachstate 00000020  00000000  00000000  00000dc0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 78 .rodata.__func__$6125 00000015  00000000  00000000  00000de0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 79 .rodata.__FUNCTION__$6079 0000000d  00000000  00000000  00000df5  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 80 .rodata.__func__$6068 0000000d  00000000  00000000  00000e02  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 81 .rodata.__FUNCTION__$6061 0000000f  00000000  00000000  00000e0f  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 82 .rodata.__func__$6055 0000000d  00000000  00000000  00000e1e  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 83 .rodata.__func__$6048 0000000f  00000000  00000000  00000e2b  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 84 .rodata.__func__$6040 0000000d  00000000  00000000  00000e3a  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 85 .rodata.__func__$6030 0000000f  00000000  00000000  00000e47  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 86 .bss.s_pthread_cfg_key 00000004  00000000  00000000  00000e58  2**2
+                  ALLOC
+ 87 .bss.s_threads_list 00000004  00000000  00000000  00000e58  2**2
+                  ALLOC
+ 88 .data.s_mutex_init_lock 00000008  00000000  00000000  00000e58  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 89 .bss.s_threads_mux 00000004  00000000  00000000  00000e60  2**2
+                  ALLOC
+ 90 .debug_frame  00000388  00000000  00000000  00000e60  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 91 .debug_info   00001cb5  00000000  00000000  000011e8  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 92 .debug_abbrev 000004ab  00000000  00000000  00002e9d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 93 .debug_loc    00000cd3  00000000  00000000  00003348  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 94 .debug_aranges 00000138  00000000  00000000  0000401b  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 95 .debug_ranges 000001a0  00000000  00000000  00004153  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 96 .debug_line   00000ec2  00000000  00000000  000042f3  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 97 .debug_str    00000c29  00000000  00000000  000051b5  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 98 .comment      0000003b  00000000  00000000  00005dde  2**0
+                  CONTENTS, READONLY
+ 99 .xtensa.info  00000038  00000000  00000000  00005e19  2**0
+                  CONTENTS, READONLY
+100 .xt.lit       000000d0  00000000  00000000  00005e51  2**0
+                  CONTENTS, RELOC, READONLY
+101 .xt.prop      00000c90  00000000  00000000  00005f21  2**0
+                  CONTENTS, RELOC, READONLY

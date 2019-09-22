@@ -1,0 +1,58 @@
+{
+  "build_id": "20190922-215720/latest-gdbab4a4-master-dirty",
+  "build_timestamp": "2019-09-22T21:57:20Z",
+  "name": "mgos-timer-test",
+  "parts": {
+    "app": {
+      "addr": 65536,
+      "cs_sha1": "fff7a9a6996cb7ed89abbecbf1fd17cf77e91b78",
+      "encrypt": true,
+      "ptn": "app_0",
+      "size": 1521248,
+      "src": "mgos-timer-test.bin",
+      "type": "app"
+    },
+    "boot": {
+      "addr": 4096,
+      "cs_sha1": "05b9ef2b9aa0556db7767b632a66871018a5f5c7",
+      "encrypt": true,
+      "size": 23152,
+      "src": "bootloader.bin",
+      "type": "boot",
+      "update": false
+    },
+    "fs": {
+      "cs_sha1": "5f4452e5237d95b2879b730af208f02109be6644",
+      "fs_size": 262144,
+      "ptn": "fs_0",
+      "size": 262144,
+      "src": "fs.img",
+      "type": "fs"
+    },
+    "nvs": {
+      "addr": 36864,
+      "encrypt": false,
+      "fill": 255,
+      "size": 16384,
+      "type": "nvs"
+    },
+    "otadata": {
+      "addr": 53248,
+      "cs_sha1": "471af83fac6e5bd49355879b3acbed10bab6f423",
+      "encrypt": true,
+      "size": 8192,
+      "src": "otadata.bin",
+      "type": "otadata"
+    },
+    "pt": {
+      "addr": 32768,
+      "cs_sha1": "1d31498bef0ca43611e2c095836ce6b8d777419c",
+      "encrypt": true,
+      "size": 3072,
+      "src": "partitions_mgos.bin",
+      "type": "pt"
+    }
+  },
+  "platform": "esp32",
+  "version": "1.0"
+}
