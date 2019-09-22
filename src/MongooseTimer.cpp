@@ -32,7 +32,7 @@ void MongooseTimer::Start(Timer::FireType fire_type, int interval_milliseconds) 
   // 3. Set the timer
   timer_id_ = mgos_set_timer(interval_milliseconds, repeat_flag, TimerCallback, (void*) this);
 
-  LOG(LL_INFO, ("Started timer on %d ms interval with id: %d", interval_milliseconds, timer_id_));
+  LOG(LL_INFO, ("Started timer on %d ms interval with id: %d. Memory location: %p", interval_milliseconds, timer_id_, this));
 }
 
 void MongooseTimer::Stop() {

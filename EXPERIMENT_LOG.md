@@ -9,4 +9,8 @@ There was consistently one timer that was overwritten.
 ### Does the number of timers affect the number of timers overwritten?
 Yes. When I increased the number of timers to 15, up to 4 were overwritten.
 Sometimes, only 1 was overwritten.
-Commit: 
+Commit: ab030be59db388954aee7675c55fcbba39a2ac46
+
+### Does this problem happen when timers are consecutively set?
+Sometimes. When there's 1 timer overwritten, this appears to consistently be
+the case.
