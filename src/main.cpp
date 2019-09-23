@@ -27,6 +27,7 @@ public:
     }
     fire_count_ = 0;
     for(int i = 0; i < size_; i++) {
+      mgos_msleep(100);
       timers_under_test_[i]->Start(Timer::FireType::kOneShot, 1000);
     }
   }

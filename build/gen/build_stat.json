@@ -2,5 +2,5 @@
   "arch": "esp32",
   "platform": "esp32",
   "app_name": "mgos-timer-test",
-  "build_time_ms": 31466
+  "build_time_ms": 33295
 }

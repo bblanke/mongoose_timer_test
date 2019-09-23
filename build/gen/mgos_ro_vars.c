@@ -1,7 +1,7 @@
 /* clang-format off */
 /*
  * Generated file - do not edit.
- * Command: /Users/baileyblankenship/Documents/Workspace/Embedded/Projects/mgos-timer-test/deps/modules/mongoose-os/tools/mgos_gen_config.py --c_name=mgos_ro_vars --c_global_name=mgos_sys_ro_vars --dest_dir=/Users/baileyblankenship/Documents/Workspace/Embedded/Projects/mgos-timer-test/build/gen/ /Users/baileyblankenship/Documents/Workspace/Embedded/Projects/mgos-timer-test/deps/modules/mongoose-os/src/mgos_ro_vars_schema.yaml
+ * Command: /Users/baileyblankenship/Documents/Workspace/Embedded/Resources/Mongoose/mongoose-os/tools/mgos_gen_config.py --c_name=mgos_ro_vars --c_global_name=mgos_sys_ro_vars --dest_dir=/Users/baileyblankenship/Documents/Workspace/Embedded/Projects/mgos-timer-test/build/gen/ /Users/baileyblankenship/Documents/Workspace/Embedded/Resources/Mongoose/mongoose-os/src/mgos_ro_vars_schema.yaml
  */
 
 #include "mgos_ro_vars.h"

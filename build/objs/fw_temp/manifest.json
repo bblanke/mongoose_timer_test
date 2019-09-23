@@ -1,20 +1,20 @@
 {
-  "build_id": "20190922-224608/latest-1-gab030be-master-dirty",
-  "build_timestamp": "2019-09-22T22:46:08Z",
+  "build_id": "20190923-002345/latest-2-g09f6d02-master-dirty",
+  "build_timestamp": "2019-09-23T00:23:45Z",
   "name": "mgos-timer-test",
   "parts": {
     "app": {
       "addr": 65536,
-      "cs_sha1": "2e542ad2e98c04173d4d9eb0033b7e8a65750201",
+      "cs_sha1": "967460ed52f373ef054c0c20e36a6e5b13042fe6",
       "encrypt": true,
       "ptn": "app_0",
-      "size": 1521264,
+      "size": 1521440,
       "src": "mgos-timer-test.bin",
       "type": "app"
     },
     "boot": {
       "addr": 4096,
-      "cs_sha1": "05b9ef2b9aa0556db7767b632a66871018a5f5c7",
+      "cs_sha1": "363cad0ed4c90f8e89ed442659abc70c4226ec75",
       "encrypt": true,
       "size": 23152,
       "src": "bootloader.bin",

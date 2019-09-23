@@ -6,13 +6,14 @@
 #include "mgos_timers.h"
 
 #include "Timer.hpp"
+#include "MongooseTimerID.hpp"
 
 class MongooseTimer: public Timer {
 private:
-  mgos_timer_id timer_id_;
+  MongooseTimerID timer_id_;
   static void TimerCallback(void* params);
 public:
-  MongooseTimer(): Timer(), timer_id_(MGOS_INVALID_TIMER_ID) {}
+  MongooseTimer(): Timer() {}
   void Start(Timer::FireType fire_type, int interval_milliseconds);
   void Stop();
 };

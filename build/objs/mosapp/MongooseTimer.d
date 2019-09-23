@@ -170,7 +170,8 @@ MongooseTimer.o: \
  /Users/baileyblankenship/Documents/Workspace/Embedded/Projects/mgos-timer-test/deps/wifi/include/mgos_wifi.h \
  /Users/baileyblankenship/Documents/Workspace/Embedded/Projects/mgos-timer-test/deps/modules/mongoose-os/include/mgos_event.h \
  /Users/baileyblankenship/Documents/Workspace/Embedded/Projects/mgos-timer-test/deps/modules/mongoose-os/include/mgos_timers.h \
- /Users/baileyblankenship/Documents/Workspace/Embedded/Projects/mgos-timer-test/src/Timer.hpp
+ /Users/baileyblankenship/Documents/Workspace/Embedded/Projects/mgos-timer-test/src/Timer.hpp \
+ /Users/baileyblankenship/Documents/Workspace/Embedded/Projects/mgos-timer-test/src/MongooseTimerID.hpp
 
 /Users/baileyblankenship/Documents/Workspace/Embedded/Projects/mgos-timer-test/src/MongooseTimer.hpp:
 
@@ -513,3 +514,5 @@ MongooseTimer.o: \
 /Users/baileyblankenship/Documents/Workspace/Embedded/Projects/mgos-timer-test/deps/modules/mongoose-os/include/mgos_timers.h:
 
 /Users/baileyblankenship/Documents/Workspace/Embedded/Projects/mgos-timer-test/src/Timer.hpp:
+
+/Users/baileyblankenship/Documents/Workspace/Embedded/Projects/mgos-timer-test/src/MongooseTimerID.hpp:
